@@ -366,6 +366,10 @@ img {
     font-weight: var(--font-medium);
 }
 
+/* .msg-btn {
+    border-radius: 0 !important;
+} */
+
 .button:hover {
     background-color: var(--first-color-alt);
 }

@@ -7,10 +7,12 @@
 
     <!-- unicorns -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <!-- swiper css -->
-    <link rel="stylesheet" href="">
+    <!-- sweetalert
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
+
     <title>My Portfolio</title>
 
 </head>
@@ -556,6 +558,7 @@
             </div>
 
             <form action="https://formsubmit.co/amirulaimanrohaimi@gmail.com" method="POST" class="contact__form grid">
+                <input type="hidden" name="_captcha" value="false">
                 <div class="contact__inputs grid">
                     <div class="contact__content">
                         <label for="" class="contact__label">Name</label>
@@ -572,7 +575,7 @@
                 </div>
 
                 <div>
-                        <button type="submit" class="button button--flex">
+                        <button type="submit" class="button button--flex msg-btn">
                             Send Message
                             <i type="submit" class="uil uil-message button__icon"></i>
                         </button>
@@ -632,7 +635,21 @@
 
 <!-- mixitup filter -->
 <script src="js/mixitup.min.js"></script>
+<!-- sweetalert2 -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- sweetalert message script -->
+<!-- <script>
+
+    if
+    Swal.fire(
+        'Thank You!',
+        'You have send the message!',
+        'success'
+    )
+</script> -->
+
 <!-- main js -->
 <script src="js/main.js"></script>
+
 </body>
 </html>
